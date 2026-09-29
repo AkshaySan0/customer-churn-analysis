@@ -33,7 +33,6 @@ customer-churn-analysis/
 ├── README.md
 ├── requirements.txt
 ├── churn_analysis.ipynb        # full analysis
-└── data/
     ├── customer_churn.db       # source SQLite database
     └── Exported_churn_data.csv # cleaned, merged dataset
 ```
@@ -73,7 +72,7 @@ pip install -r requirements.txt
 jupyter notebook churn_analysis.ipynb
 ```
 
-The notebook reads `data/customer_churn.db` and writes the cleaned dataset to `data/Exported_churn_data.csv`.
+The notebook reads `customer_churn.db` and writes the cleaned dataset to `Exported_churn_data.csv`.
 
 ## 7. Applicability
 
